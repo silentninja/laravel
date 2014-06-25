@@ -1,0 +1,23 @@
+<?php
+Route::post('login', 'RequestsController@login');
+Route::post('register', 'RequestsController@register');
+Route::get('getitems', 'RequestsController@getitems');
+Route::post('addcart', 'RequestsController@addcart');
+Route::get('login', function () {return View::make('login');});
+Route::get('/', function () {return View::make('login');});
+Route::get('showrcart', 'RequestsController@showrcart');
+Route::get('rcart','RequestsController@rcart');
+Route::get('rdel', 'RequestsController@rdel');
+Route::get('add', 'RequestsController@add');
+Route::get('additem', 'RequestsController@addi');
+Route::get('delitem', 'RequestsController@delitem');
+Route::get('gettab', 'RequestsController@gettab');
+Route::get('tabdel', 'RequestsController@tabdel');
+Route::get('rat', 'RequestsController@rat');
+Route::get('tabdel', 'RequestsController@tabdel');
+Route::get('sea', 'RequestsController@isea');
+Route::get('cbill', 'RequestsController@cbill');
+Route::get('bill','RequestsController@bill');
+Route::get('getprof', 'RequestsController@getprof');
+Route::get('recommend', 'RequestsController@recommend');
+Route::get('genbill', 'RequestsController@genbill');

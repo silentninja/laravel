@@ -1,0 +1,144 @@
+/*
+* Skeleton V1.2
+* Copyright 2011, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 6/20/2012
+*/
+
+
+/* Table of Content
+==================================================
+	#Reset & Basics
+	#Basic Styles
+	#Site Styles
+	#Typography
+	#Links
+	#Lists
+	#Images
+	#Buttons
+	#Forms
+	#Misc */
+
+
+/* #Reset & Basics (Inspired by E. Meyers)
+================================================== */
+	html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		font-size: 100%;
+		font: inherit;
+		vertical-align: baseline; }
+	article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+		display: block; }
+	body {
+		line-height: 1; }
+	ol, ul {
+		list-style: none; }
+	blockquote, q {
+		quotes: none; }
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+		content: '';
+		content: none; }
+	table {
+		border-collapse: collapse;
+		border-spacing: 0; }
+
+
+/* #Basic Styles
+================================================== */
+	body {
+		background: url(../images/bg.jpg);
+		
+		-webkit-font-smoothing: antialiased; /* Fix for webkit rendering */
+		-webkit-text-size-adjust: 100%;
+ }
+
+
+/* Myshit
+================================================== */
+
+
+
+	img.scale-with-grid {
+		max-width: 100%;
+		height: auto; }
+		
+		
+.logo{ width:280px; height:70px; overflow:hidden;margin-left:10px; background-image:url(../images/loogo.jpg);}
+.servlist{width:200px; height:auto; margin-left:5px; font-family:'vag_roundedbold'; letter-spacing:1px;}
+.servlist ul {  margin-top:20px;text-decoration: none; }
+.servlist ul li { height:25px; text-align:left;border:5px solid #666; border-radius:10px; background-color:#000 ; margin-top:5px; padding-top:5px; color:#333; padding-left:5px; font-weight:bold;}
+.servlist  ul li:hover{ background-color:#000; color:#333;text-decoration: none;}
+.servlist ul li a:link {color:#000; text-decoration: none;}     
+.servlist ul li a:visited {color: #aaa;text-decoration: none;}  
+.servlist ul li a:hover {color: #fff;text-decoration: none;}  
+.servlist ul li a:active {color:#111;text-decoration: none;}  
+.roomservice { width:280px; height: auto; font-family:'vag_roundedbold'; letter-spacing:1px; font-size: 24px; margin-top:10px; margin-left:10px; color:#000; border:5px solid #666;}
+.box { width:130px; height:100px;  background-color:#111; color:#fff;font-family:'vag_roundedbold'; letter-spacing:1px; text-align:justify; text-decoration:none; border:10px solid #3b3131; text-align:center; vertical-align: middle; font-size:18px; font-weight: 700; }
+
+.goback { width:200px; font-family:'Trebuchet MS';height:25px; margin-left:40px; margin-top:20px; background-color:#000; color:#bbb; border:10px solid #3b3131; padding-top:5px; border-radius:10px; text-align:center;}
+.goback a:link{ text-decoration:none; color:#bbb;font-size:18px; font-weight: 700;}
+.goback a:active{ text-decoration:none; color:#bbb;font-size:18px; font-weight: 700;}
+.goback a:visited{ text-decoration:none; color:#bbb; font-size:18px; font-weight: 700;}
+
+
+.box a:link{ text-decoration:none; color:#bbb;}
+.box a:active{ text-decoration:none; color:#bbb;}
+.box a:visited{ text-decoration:none; color:#bbb; }
+
+.order {width:150px; height:25px; margin-left:10px; margin-top:20px; background-color:#000; color:#666; border:10px solid #3b3131; border-radius:10px; text-align:center; font-size:24px; font-weight:bold;}
+.order a:link{ text-decoration:none; color:#666;}
+.order a:active{ text-decoration:none; color:#666;}
+.order a:visited{ text-decoration:none; color:#666; }
+
+
+h3{ font-size:18px; font-style:italic; color: #09C; font-weight:bold;}
+
+.mainpagebox { float:left; position:relative; width:280px; height:401px; margin-top:0px; font-family:'vag_roundedbold'; letter-spacing:1px; font-size: 24px; margin-left:0px; color:#000;  }
+.transbox {width:130px; height:auto; color:#fff;font-family: '91094971-Precious'; letter-spacing:1px; text-align:justify; text-decoration:none; text-align:center; vertical-align: middle; font-size:24px; border:3px solid #000;color: #000;  }
+.transbox a:link{ text-decoration:none; color: #000;}
+.transbox a:active{ text-decoration:none; color:#000;}
+.transbox a:visited{ text-decoration:none; color:#000;}
+
+
+.footer{ float:none; position:relative;width:280px; height:400;margin-left:10px; padding-top:20px; margin-bottom:0px; background-color:#000; color:#CCC;}
+
+
+.newgoback{float:left; position:relative; margin-left:10px; width: 270px; height:70px; padding-top:10px;font-family:'cambria'; font-size:16px; text-align:center; text-decoration:none;}
+
+.list { width:280px; height:auto; margin-left:10px; float:left; position:relative; margin-top:10px; color:#000; font-size:20px; }
+.list ul li { list-style:none;border-bottom:2px dashed #7f5217; padding-bottom:5px;}
+.list ul li a{ list-style:none;text-decoration:none; color:#000;}
+
+.createevent{width:280px; float:left; position:relative; height:auto; margin-top:10px; margin-left:10px; color: #7f462c; background-color:#7f462c; border:5px solid #7f462c; border-radius:5px; text-align:center;}
+.createevent a{ text-decoration:none; color:#FFF;}
+
+.viewingallery a{ text-decoration:none; color:#000; background-color: #7f462c; border:5px solid #7f462c; }
+
+.showcart{width:100%; height:auto; background-color:#999; margin-left:10px; margin-top:30px; text-align:justify; font-family:'Century Gothic'; font-size:16px; font-weight:bold;}
+
+
+
+
+/* css FOR SELECT
+================================================== */
+.multiselect {
+    width:275px;
+    height:auto;
+     padding-left:5px;
+    overflow:auto; color:#000; font-weight:bold;
+}
+ 
+.multiselect label {
+    display:block;
+}
+ 
+.multiselect-on {
+    color:#000000;
+    background-color:#000099;
+}
+
